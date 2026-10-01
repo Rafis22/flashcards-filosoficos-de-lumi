@@ -26,12 +26,14 @@
     @keyframes shake{25%{transform:translateX(-5px)}75%{transform:translateX(5px)}}
     @media(max-width:650px){header{padding:22px 140px 22px 18px;min-height:245px}.mascot{width:155px;right:-8px;bottom:-24px}.report-mascot{width:100px;margin-bottom:-30px}.toolbar{position:static}.toolbar button{flex:1}.spacer{display:none}.score{width:100%;text-align:center}.grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.card{min-height:285px}.portrait,.portrait-fallback{height:155px}.card-body{padding:13px}.author{font-size:1.1rem}.question{padding:16px}.question p{font-size:1rem}.question-mark{font-size:3.2rem}.period{margin-top:25px}.metrics{grid-template-columns:1fr}.row-label{font-size:.9rem}}
     @media(max-width:410px){.grid{grid-template-columns:1fr}.portrait,.portrait-fallback{height:220px}}
-    .lumi-lockup{width:220px;height:110px;object-fit:contain;object-position:center}
+    .title{display:flex;align-items:center;gap:.12em;max-width:1200px;white-space:nowrap}
+    .lumi-lockup{flex:none;width:185px;height:92px;margin-left:.08em;object-fit:contain;object-position:center;vertical-align:middle}
     header{min-height:280px}
     .mascot{right:clamp(18px,4vw,64px);bottom:8px;width:230px;height:276px;max-width:none;max-height:none;object-fit:contain;object-position:center}
     .report-head{position:relative;min-height:164px;padding-right:clamp(175px,17vw,210px)}
     .report-mascot{position:absolute;right:clamp(18px,3vw,38px);bottom:14px;float:none;width:100px;height:120px;max-width:none;max-height:none;margin:0;object-fit:contain;object-position:center}
     @media(max-width:650px){header{min-height:265px;padding-right:150px}.lumi-lockup{width:150px;height:75px}.mascot{right:8px;bottom:10px;width:130px;height:156px;max-width:none;max-height:none}.report-head{min-height:150px;padding-right:125px}.report-mascot{right:14px;bottom:12px;width:82px;height:98px;max-width:none;max-height:none;margin:0}}
+    @media(max-width:650px){.title{flex-wrap:wrap;white-space:normal}.lumi-lockup{width:135px;height:68px}}
     @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;animation:none!important;transition:none!important}}
   </style>
 </head>
